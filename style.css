@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar img{
+    width: 200px;
+    border-radius: 30px;
+}
+.nav{
+    padding: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    margin: 20px;
+}
+.row h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.row h2{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.row a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.main h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.main p{
+    color: gray;
+    font-size: 14px;
+    padding: 20px;
+}
+.project{
+    display: flex;
+    padding: 20px;
+}
+h5{
+    text-align: center;
+    padding: 20px;
+}
+.year h3{
+margin: 65px;
+margin-top: 0px;
+color: gray;
+}
+.work a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    color: black;
+}
+.work p{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.edu{
+    padding: 20px;
+    text-align: center;
+}
+.edu h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.edu p{
+    color: gray;
+    font-size: 14px;
+}
+.contact{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact p{
+color: gray;
+font-size: 16px;
+}
+.contact a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+@media (max-width: 700px){
+    .year h3{
+        margin: 80px;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+}
